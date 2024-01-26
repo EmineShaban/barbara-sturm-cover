@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/cookie.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
 
 
@@ -28,18 +29,66 @@
         <button class="cookie-btn">Accept</button>
 
     </div>
+    <header>
+
+    </header>
+    <main class="container">
+
+
+        <div class="hero">
+
+
+            <!-- Swiper -->
+            <div class="sw">
+
+
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./images/SAA_FACE_CREAM___11984.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/SAA_FACE_CREAM__70990__99617.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/SAA_FACE_CREAM_2__02761 (1).jpg" />
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+            </div>
+            <div class="hero-text">
+                <h1>SUPER ANTI-AGING FACE CREAM
+                </h1>
+            </div>
+
+        </div>
 
 
 
 
 
+    </main>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-
-
-
-
-
-
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "cube",
+            grabCursor: true,
+            cubeEffect: {
+                shadow: true,
+                slideShadows: true,
+                shadowOffset: 20,
+                shadowScale: 0.94,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
 
     <script src="./js/cookie.js"></script>
     <script src="./js/index.js"></script>

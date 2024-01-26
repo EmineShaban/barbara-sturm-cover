@@ -1,0 +1,24 @@
+body{
+    font-family: Europa,Roboto,Arial,Helvetica,sans-serif;
+}
+img{
+    width: 100%;
+}
+ 
+
+
+.hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+}
+.container{
+    width: 70%;
+    margin: auto;
+    
+}
+
+.sw{
+    width: 65%; 
+    margin: auto;
+}
