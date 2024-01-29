@@ -129,3 +129,45 @@ h2{
 .anti-div{
     text-align: center;
 }
+
+
+
+/* Frequently Asked Questions */
+
+
+.faq-divs {
+    margin: 35px auto;
+    text-align: center;
+  
+  }
+
+  .button-group{
+    margin-top: 5px;
+      border: 1px solid rgba(221, 221, 221, 0.42);
+  }
+  .button-group p.q{
+    background: rgba(243, 243, 243, 1);
+    padding: 20px;
+    
+  }
+  p.a{
+    display: none;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    margin-top: 5px;
+    border-top: 1px solid rgba(221, 221, 221, 0.42);
+
+  }
+  .button-group p{
+    margin: 0;
+  }
+  
+   
+  
+  .faq,
+  .ingredients,
+  .how-to-use,
+  .scores,
+  .before-after {
+    margin: 50px 0;
+  }
