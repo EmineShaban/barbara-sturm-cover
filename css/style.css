@@ -18,14 +18,41 @@ img {
 }
 
 .hero {
-  display: flex;
-  margin-top: 50px;
+  display: flex; 
+  margin-top: 0;
 }
 .container {
   width: 70%;
   margin: auto;
 }
 
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 70px auto 50px auto;
+  }
+header{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    margin-top: 15px;
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+}
+header ul li a{
+    text-transform: uppercase;
+    text-align: center;
+    color: #000000;
+}
+.logo{
+    width: 40%;
+    margin: auto;
+}
 .sw {
   width: 40%;
   margin: auto;
@@ -39,8 +66,9 @@ img {
 .hero-text {
   margin: auto;
   margin-left: 25px;
-}
 
+}
+ 
 video {
   width: 100%;
   margin: auto;
@@ -62,18 +90,28 @@ video {
   grid-template-columns: 1fr 1fr;
 }
 
-h2 {
-  text-align: center;
-  text-transform: uppercase;
-  margin: 70px auto 50px auto;
-}
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 0.4fr 0.4fr 0.4fr;
   grid-column-gap: 20px;
-  width: 60%;
+  width: 80%;
   margin: auto;
+}
+.grid h2{
+    text-align: center;
+    margin: 50px auto;
+    
+}
+.grid-h2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.grid-h2 hr{
+    width: 30%;
+    border-top: 1.5px solid #000000;
 }
 .grid-div img {
   width: 75px;
@@ -170,24 +208,38 @@ p.a {
     display: grid;
     grid-template-columns: 100px 1fr;
     grid-column-gap: 15px;
+    margin-top: 30px;
 }
 .text p{
     margin: 0;
 }
 .text h4{
+    margin-top: 0;
     margin-bottom: 5px;
 }
 .tema{
     margin: 0;
+    color: #6B6D76; 
 }
 
 .grey{
     color: #6A6C77;
     font-size: 14px;
+    font-weight: 700;
 }
 
 
 .text h4 i{
     color: #6A6C77; 
     margin: 5px 0;
+    margin-bottom: 10px;
+}
+
+.reviews{
+    width: 60%;
+    margin: auto;
+}
+
+.reviews{
+    font-size: 14px;
 }
