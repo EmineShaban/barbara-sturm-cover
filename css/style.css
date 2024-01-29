@@ -1,173 +1,167 @@
-body{
-    font-family: 'Playfair Display', serif;
+body {
+  font-family: "Playfair Display", serif;
 }
 p,
-li,a,h1,h2,h3,h4,h5,h6{
-    line-height: 1.4;
-    letter-spacing: 1px;
+li,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.4;
+  letter-spacing: 1px;
 }
-img{
-    width: 100%;
-}
- 
-
-
-.hero{
-    display: flex;
-    margin-top: 50px;
-
-}
-.container{
-    width: 70%;
-    margin: auto;
-    
+img {
+  width: 100%;
 }
 
-.sw{
-    width: 40%; 
-    margin: auto;
-} 
-
-.hero-text ul li{
-    margin: 7px 0;
-    list-style-type: square;
+.hero {
+  display: flex;
+  margin-top: 50px;
 }
- 
-.hero-text{
-    margin: auto;
-    margin-left: 25px;
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+.sw {
+  width: 40%;
+  margin: auto;
+}
+
+.hero-text ul li {
+  margin: 7px 0;
+  list-style-type: square;
+}
+
+.hero-text {
+  margin: auto;
+  margin-left: 25px;
 }
 
 video {
-    width: 100%;
-    margin: auto;
+  width: 100%;
+  margin: auto;
 }
-.video ul{
-    margin: auto;
+.video ul {
+  margin: auto;
 }
-.video ul li{
-    margin: 10px 0;
-    font-weight: 500;
-    /* font-size: 18px; */
+.video ul li {
+  margin: 10px 0;
+  font-weight: 500;
+  /* font-size: 18px; */
 }
-.video ul li i{
-    margin: 0 7px;
-}
-
-.video{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-
-    
-}
- 
-
-h2{
-    text-align: center;
-    text-transform: uppercase;
-    margin: 50px auto;
+.video ul li i {
+  margin: 0 7px;
 }
 
-.grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 20px;
-    width: 60%;
-    margin: auto;
-}
-.grid-div img{
-    width: 75px;
-    margin: 0 auto;
+.video {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
-.grid-div{
-    text-align: center;
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 50px auto;
 }
 
-.ingredients-p{
-    width: 75%;
-    margin: 25px auto; 
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+  width: 60%;
+  margin: auto;
+}
+.grid-div img {
+  width: 75px;
+  margin: 0 auto;
 }
 
-.grid-five{
-    /* display: grid;
+.grid-div {
+  text-align: center;
+}
+
+.ingredients-p {
+  width: 75%;
+  margin: 25px auto;
+}
+
+.grid-five {
+  /* display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     width: 60%;
     margin: auto;  */
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 60%;
-    margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 60%;
+  margin: auto;
 }
 
-.grid-five img{
-    width: 75px;
+.grid-five img {
+  width: 75px;
 }
 
-.key-text{
-    margin: auto;
-    text-transform: uppercase;
-    text-align: center;
+.key-text {
+  margin: auto;
+  text-transform: uppercase;
+  text-align: center;
 }
 
-.key-div{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.key-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
-.key-text p{
-    margin-bottom: 30px;
+.key-text p {
+  margin-bottom: 30px;
 }
 
-.anti-grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 25px;
+.anti-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 25px;
 }
 
-.anti-div{
-    text-align: center;
+.anti-div {
+  text-align: center;
 }
-
-
 
 /* Frequently Asked Questions */
 
-
 .faq-divs {
-    margin: 35px auto;
-    text-align: center;
-  
-  }
+  margin: 35px auto;
+  text-align: center;
+}
 
-  .button-group{
-    margin-top: 5px;
-      border: 1px solid rgba(221, 221, 221, 0.42);
-  }
-  .button-group p.q{
-    background: rgba(243, 243, 243, 1);
-    padding: 20px;
-    
-  }
-  p.a{
-    display: none;
-    background: rgb(255, 255, 255);
-    padding: 20px;
-    margin-top: 5px;
-    border-top: 1px solid rgba(221, 221, 221, 0.42);
+.button-group {
+  margin-top: 5px;
+  border: 1px solid rgba(221, 221, 221, 0.42);
+}
+.button-group p.q {
+  background: rgba(243, 243, 243, 1);
+  padding: 20px;
+}
+p.a {
+  display: none;
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  margin-top: 5px;
+  border-top: 1px solid rgba(221, 221, 221, 0.42);
+}
+.button-group p {
+  margin: 0;
+}
 
-  }
-  .button-group p{
-    margin: 0;
-  }
-  
-   
-  
-  .faq,
-  .ingredients,
-  .how-to-use,
-  .scores,
-  .before-after {
-    margin: 50px 0;
-  }
+.faq,
+.ingredients,
+.how-to-use,
+.scores,
+.before-after {
+  margin: 50px 0;
+}
+
+ 
