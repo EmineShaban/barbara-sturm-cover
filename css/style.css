@@ -243,3 +243,39 @@ p.a {
 .reviews{
     font-size: 14px;
 }
+
+.order-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    width: 70%;
+    margin: auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pole input{
+    padding: 8px 18px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    border: 1px solid grey;
+}
+
+.price{
+    text-align: center;
+}
+
+.price h2{
+    margin: 10px auto;
+}
+
+.order-btn a{
+    color: white;
+    background-color: #000000;
+    padding: 12px 20px;
+    font-weight: 900;
+    margin: 10px auto;
+    
+}
