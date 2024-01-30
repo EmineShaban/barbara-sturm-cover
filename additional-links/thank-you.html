@@ -10,19 +10,21 @@
         @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
     </style>
     <style>
+        img{
+            width: 100%;
+        }
         div.image-logo-1 {
             display: flex;
             justify-content: center;
+            width: 10%;
+            margin: auto;
         }
         
         div.image-product {
-            margin: 5vh;
-            width: 50%;
+            margin: auto;
+            width: 30%;
         }
         
-        div.image-product img {
-            width: 80%;
-        }
         
         div.div-wrapper {
             margin: 5vh;
@@ -46,14 +48,14 @@
     <div class="div-wrapper">
 
         <div class="image-product">
-            <img src="../images/section3.jpg" class="product" />
+            <img src="../images/product.jpg" class="product" />
         </div>
 
         <div class="header-name">
-            <p class="name-product">DERMA E Advanced Peptides and Collagen Moisturizer</p>
+            <p class="name-product">SUPER ANTI-AGING FACE CREAM</p>
             <p class="name-product-text">Thank you for your order, it has been successfully received!</p>
             <p class="name-product-text-bold">Order details: </p>
-            <p class="name-product-text"><i class="far fa-check-circle"></i> Order Number: #524956</p>
+            <p class="name-product-text"><i class="far fa-check-circle"></i> Order Number: #114956</p>
             <p class="name-product-text"><i class="far fa-check-circle"></i> Selected payment method: Cash on delivery</p>
             <p class="name-product-text"><i class="far fa-check-circle"></i> Delivery ETA 3 to 5 business days</p>
         </div>
