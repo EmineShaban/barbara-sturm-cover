@@ -306,32 +306,96 @@ footer p.disclaimer {
 
 .hero-text .order-btn {
   display: flex;
-  
 }
 h1 {
   text-align: center;
 }
 
-
 @media screen and (max-width: 1440px) {
+  header {
+    margin-bottom: 40px;
+  }
+  .container {
+    width: 85%;
+  }
+}
 
-header{
-  margin-bottom: 40px;
-}
-.container{
-  width: 85%;
-}
-}
-
-@media screen and (max-width: 1440px) { 
-  .container{
+@media screen and (max-width: 994px) {
+  .container {
     width: 90%;
   }
 
-  header ul { 
-    width: 90%; 
+  header ul {
+    width: 90%;
+  }
+  .video {
+    display: block;
+  }
+  .video ul {
+    padding: 0;
+  }
+  .grid {
+    width: 100%;
+  }
+  .ingredients-p {
+    width: 100%;
+  }
+
+  .grid-five {
+    width: 95%;
+  }
+
+  .reviews {
+    width: 100%;
+    margin: auto;
+  }
+
+  footer p.disclaimer {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .anti-grid {
+    display: block;
+  }
+  .hero{
+    display: flex;
+    flex-direction: column-reverse; 
+  }
+  header {
+    margin-bottom: 20px;
+    display: block;
+}
+
+header ul {
+  padding: 0;
+}
+
+.logo {
+  width: 25%;
+  margin: auto;
+}
+.sw {
+  width: 65%;
+  margin: auto;
+}
+.hero-text {
+  margin: auto; 
+}
+
+.grid {
+  display: block;
+}
+
+
+.grid{
+
 }
 
 
 
-  }
+
+
+
+
+}
