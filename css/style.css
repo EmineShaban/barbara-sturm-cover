@@ -18,7 +18,7 @@ img {
 }
 
 .hero {
-  display: flex; 
+  display: flex;
   margin-top: 0;
 }
 .container {
@@ -27,31 +27,31 @@ img {
 }
 
 h2 {
-    text-align: center;
-    text-transform: uppercase;
-    margin: 70px auto 50px auto;
-  }
-header{
-    display: grid;
-    grid-template-columns: 0.5fr 1fr;
-    margin-top: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 70px auto 50px auto;
 }
-header ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 70%;
-    margin: auto;
+header {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  margin-top: 15px;
 }
-header ul li a{
-    text-transform: uppercase;
-    text-align: center;
-    color: #000000;
+header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: auto;
 }
-.logo{
-    width: 40%;
-    margin: auto;
+header ul li a {
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
+}
+.logo {
+  width: 40%;
+  margin: auto;
 }
 .sw {
   width: 40%;
@@ -66,9 +66,8 @@ header ul li a{
 .hero-text {
   margin: auto;
   margin-left: 25px;
-
 }
- 
+
 video {
   width: 100%;
   margin: auto;
@@ -90,7 +89,6 @@ video {
   grid-template-columns: 1fr 1fr;
 }
 
-
 .grid {
   display: grid;
   grid-template-columns: 1fr 0.4fr 0.4fr 0.4fr;
@@ -98,20 +96,19 @@ video {
   width: 80%;
   margin: auto;
 }
-.grid h2{
-    text-align: center;
-    margin: 50px auto;
-    
+.grid h2 {
+  text-align: center;
+  margin: 50px auto;
 }
-.grid-h2{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+.grid-h2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
-.grid-h2 hr{
-    width: 30%;
-    border-top: 1.5px solid #000000;
+.grid-h2 hr {
+  width: 30%;
+  border-top: 1.5px solid #000000;
 }
 .grid-div img {
   width: 75px;
@@ -202,80 +199,139 @@ p.a {
   margin: 50px 0;
 }
 
- 
-
-.reviews-div{
-    display: grid;
-    grid-template-columns: 100px 1fr;
-    grid-column-gap: 15px;
-    margin-top: 30px;
+.reviews-div {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  grid-column-gap: 15px;
+  margin-top: 30px;
 }
-.text p{
-    margin: 0;
+.text p {
+  margin: 0;
 }
-.text h4{
-    margin-top: 0;
-    margin-bottom: 5px;
+.text h4 {
+  margin-top: 0;
+  margin-bottom: 5px;
 }
-.tema{
-    margin: 0;
-    color: #6B6D76; 
+.tema {
+  margin: 0;
+  color: #6b6d76;
 }
 
-.grey{
-    color: #6A6C77;
-    font-size: 14px;
-    font-weight: 700;
+.grey {
+  color: #6a6c77;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.text h4 i {
+  color: #6a6c77;
+  margin: 5px 0;
+  margin-bottom: 10px;
+}
+
+.reviews {
+  width: 60%;
+  margin: auto;
+}
+
+.reviews {
+  font-size: 14px;
+}
+
+.order-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 70%;
+  margin: auto;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pole input {
+  padding: 8px 18px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  border: 1px solid grey;
+}
+
+.price {
+  text-align: center;
+}
+
+.price h2 {
+  margin: 10px auto;
+}
+
+.order-btn a {
+  color: white;
+  background-color: #000000;
+  padding: 12px 20px;
+  font-weight: 900;
+  margin: 10px auto;
+}
+.order-btn {
+  margin-top: 25px;
+}
+
+/* footer */
+footer {
+  margin-top: 30px;
+}
+footer div.links {
+  text-align: center;
+  margin: 15px;
+}
+
+footer a {
+  margin: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+footer p {
+  text-align: center;
+}
+
+footer p.disclaimer {
+  width: 70%;
+  margin: 10px auto;
+  letter-spacing: 0;
+  line-height: 1;
+  font-size: 14px;
+}
+
+.hero-text .order-btn {
+  display: flex;
+  
+}
+h1 {
+  text-align: center;
 }
 
 
-.text h4 i{
-    color: #6A6C77; 
-    margin: 5px 0;
-    margin-bottom: 10px;
+@media screen and (max-width: 1440px) {
+
+header{
+  margin-bottom: 40px;
+}
+.container{
+  width: 85%;
+}
 }
 
-.reviews{
-    width: 60%;
-    margin: auto;
+@media screen and (max-width: 1440px) { 
+  .container{
+    width: 90%;
+  }
+
+  header ul { 
+    width: 90%; 
 }
 
-.reviews{
-    font-size: 14px;
-}
 
-.order-div{
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
-    width: 70%;
-    margin: auto;
-}
-form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.pole input{
-    padding: 8px 18px;
-    border-radius: 8px;
-    margin-bottom: 10px;
-    border: 1px solid grey;
-}
 
-.price{
-    text-align: center;
-}
-
-.price h2{
-    margin: 10px auto;
-}
-
-.order-btn a{
-    color: white;
-    background-color: #000000;
-    padding: 12px 20px;
-    font-weight: 900;
-    margin: 10px auto;
-    
-}
+  }
