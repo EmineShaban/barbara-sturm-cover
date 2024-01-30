@@ -191,14 +191,6 @@ p.a {
   margin: 0;
 }
 
-.faq,
-.ingredients,
-.how-to-use,
-.scores,
-.before-after {
-  margin: 50px 0;
-}
-
 .reviews-div {
   display: grid;
   grid-template-columns: 100px 1fr;
@@ -358,44 +350,106 @@ h1 {
   .anti-grid {
     display: block;
   }
-  .hero{
+  .hero {
     display: flex;
-    flex-direction: column-reverse; 
+    flex-direction: column-reverse;
   }
   header {
     margin-bottom: 20px;
     display: block;
+  }
+
+  header ul {
+    padding: 0;
+  }
+
+  .logo {
+    width: 25%;
+    margin: auto;
+  }
+  .sw {
+    width: 65%;
+    margin: auto;
+  }
+  .hero-text {
+    margin: auto;
+  }
+
+  .grid {
+    display: block;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-areas:
+      "skin skin skin"
+      "skin1 skin2 skin3";
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  #skin {
+    grid-area: skin;
+  }
+  #skin1 {
+    grid-area: skin1;
+  }
+  #skin2 {
+    grid-area: skin2;
+  }
+  #skin3 {
+    grid-area: skin3;
+  }
+  .grid-h2 hr {
+    display: none;
+  }
+  .key-img {
+    margin: auto;
+  }
+
+  .key-div {
+    display: block;
+  }
+  video {
+    width: 65%;
+    margin: auto;
+  }
+  .order-div {
+    display: block;
+  }
+
+  .video {
+    display: flex;
+    flex-direction: column;
+  }
+  .reviews-div {
+    display: grid;
+    grid-template-columns: 75px 1fr;
+  }
+  h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 50px auto 30px auto;
+  }
 }
 
-header ul {
-  padding: 0;
-}
-
-.logo {
-  width: 25%;
-  margin: auto;
-}
-.sw {
-  width: 65%;
-  margin: auto;
-}
-.hero-text {
-  margin: auto; 
-}
-
-.grid {
-  display: block;
-}
-
-
-.grid{
-
-}
-
-
-
-
-
-
-
+@media screen and (max-width: 414px) {
+  header ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  header ul li {
+    text-align: center;
+    margin: 5px auto;
+  }
+  .logo {
+    width: 33%;
+    margin: auto;
+  }
+  .hero-text .order-btn {
+    display: flex;
+    margin-bottom: 25px;
+  }
+  video {
+    width: 90%;
+  }
 }
